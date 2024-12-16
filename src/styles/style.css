@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: alieronbold;
+    src: url('./../../assets/fonts/Aileron-Bold.otf');
+}
+
+@font-face {
+    font-family: alieronheavy;
+    src: url('./../../assets/fonts/Aileron-Heavy.otf');
+}
+
+@font-face {
+    font-family: alieronsemi;
+    src: url('./../../assets/fonts/Aileron-SemiBold.otf');
+}
+
+@font-face {
+    font-family: alieronregular;
+    src: url('./../../assets/fonts/Aileron-Regular.otf');
+}
+
+@font-face {
+    font-family: alieronlight;
+    src: url('./../../assets/fonts/Aileron-Light.otf');
+}
+
+.font-alieronregular{
+    font-family: alieronregular;
+}
+
+.font-alieronlight{
+    font-family: alieronlight;
+}
+
+.font-alieronbold{
+    font-family: alieronbold;
+}
